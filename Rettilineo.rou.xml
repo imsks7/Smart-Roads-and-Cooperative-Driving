@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-30 12:33:54 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="set_1" length="4.50" minGap="1.00" maxSpeed="40.00" carFollowModel="Krauss" accel="0.8" tau="1" speedFactor="norm(1,0.1)"/>
+	<vType id="set_2" length="4.50" minGap="1.00" maxSpeed="40.00" carFollowModel="Krauss" accel="1.80" decel="4.5" sigma="0.5" tau="1"/>
+	<vType id="set_3" length="4.50" minGap="2.33" maxSpeed="40.00" carFollowModel="Krauss" accel="2.786" decel="7.43" sigma="0.292" tau="1" speedFactor="1.193" speedDev ="0.091" lcSpeedGain = "0.0887" lcKeepRight = "0.835" lcAssertive="1.616"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="1" type="set_1" begin="0.00" departLane="free" color="yellow" from="E0" to="E1" end="3600.00" probability="0.83" departSpeed="max"/>
+	<flow id="2" type="set_1" begin="900" departLane="free" color="yellow" from="E0" to="E1" end="1800.00" probability="0.83" departSpeed="max"/>
+</routes>
